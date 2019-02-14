@@ -104,7 +104,7 @@ public class LoveCalculator {
   return Integer.parseInt(result);
  }
 
- public static Integer getLovePercentageResult(String fname, String sname) {
+ public Integer getLovePercentageResult(String fname, String sname) {
   int per = getLovePercentage(fname, sname);
   String result = "Love Percentage Between " + fname + " And " + sname + " is " + per + "% ";
 
