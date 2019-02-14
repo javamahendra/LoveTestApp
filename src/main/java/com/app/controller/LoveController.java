@@ -25,6 +25,11 @@ public class LoveController {
 
 		return "home";
 	}
+	/*@GetMapping("/home")
+	public String home() {
+
+		return "home";
+	}*/
 
 	@GetMapping("/lovecal")
 	public String love(@RequestParam("txtuname") String txtuname, @RequestParam("txtpname") String txtpname,
