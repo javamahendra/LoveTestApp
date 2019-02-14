@@ -19,8 +19,14 @@ public class LoveController {
 
 		return "home";
 	}
+	
+	@GetMapping("/home")
+	public String home() {
 
-	@GetMapping("/lovecal/{txtname}/{tstname}")
+		return "home";
+	}
+
+	@GetMapping("/lovecal")
 	public String love(@RequestParam("txtuname") String txtuname, @RequestParam("txtpname") String txtpname,
 			ModelMap map) {
 

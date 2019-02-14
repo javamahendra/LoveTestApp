@@ -75,11 +75,7 @@
 					src="../imgs/whatsapp.png" width="95" height="30" /></a>
 			</div>
 
-
-
-
-
-			<a href='home'> <br> <br> <img border='0'
+			<a href='/'> <br> <br> <img border='0'
 				alt='loveyou.html' src='../imgs/try.jpeg' width='200' height='50'></a>
 			<div></div>
 			</form>

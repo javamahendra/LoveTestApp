@@ -29,7 +29,7 @@
 		<div class="left"></div>
 		<div class="right">
 			<div class="formBox">
-				<form action="loveurl" method="get">
+				<form action="lovecal" method="get">
 					<p>Your Name</p>
 					<input type="text" size="10" name="txtuname"
 						placeholder="Enter Your Name" autofouse />
